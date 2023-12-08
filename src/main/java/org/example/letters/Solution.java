@@ -42,15 +42,15 @@ class Solution {
     String letters22 = "xyzXYZabcABC";
     String letters33 = "ABCabcAefG";
 
-    String letter = " "; // Expected output: 0
-    String letters = null; // Expected output: 0
-    String letters1 = ""; // Expected output: 0
-    String letters2 = "aA"; // Expected output: 1
-    String letters3 = "aA"; // Expected output: 1
-    String letters4 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Expected output: 0
-    String letters5 = "aAabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Expected output: 1
-    String letters6 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; // Expected output: 0
-    String letters7 = "abcdefghijklmnopqrstuvwxyzABCDEFGH-IJKLMNOPQRSTUVWXYZ"; // Expected output: 0
+    String letter = " "; 
+    String letters = null; 
+    String letters1 = ""; 
+    String letters2 = "aA"; 
+    String letters3 = "aA"; 
+    String letters4 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+    String letters5 = "aAabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+    String letters6 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; 
+    String letters7 = "abcdefghijklmnopqrstuvwxyzABCDEFGH-IJKLMNOPQRSTUVWXYZ"; 
 
     Solution mySolution= new Solution();
     System.out.println(mySolution.solution(letters4));
