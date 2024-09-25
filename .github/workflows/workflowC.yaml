@@ -1,10 +1,8 @@
 name: Workflow C
 
 on:
-  workflow_run:
-    workflows: ["Workflow A"]
-    types:
-      - completed
+  repository_dispatch:
+    types: [workflow-a-completed]
 
 jobs:  
   run_on_workflow_a_success:
