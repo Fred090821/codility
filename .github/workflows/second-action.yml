@@ -1,0 +1,13 @@
+name: Second action
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['First action']
+    types: [completed]
+
+jobs:
+  second:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Second action successfully finished!"
